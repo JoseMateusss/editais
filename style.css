@@ -1,0 +1,118 @@
+html {
+  font-size: 21px; }
+
+body {
+  margin: 0;
+  background-color: #F9F9F9 !important;
+  font-family: 'Titillium Web', sans-serif !important;
+  font-weight: 300;
+  color: #777 !important;
+  font-size: 0.95em !important;
+  line-height: 1.65em !important; }
+
+*::selection {
+  background: #333399;
+  color: #FFF; }
+
+.container-text {
+  max-width: 800px !important; }
+
+/** estrutura **/
+section {
+  padding-top: 64pt;
+  padding-bottom: 64pt;
+  min-height: 80pt; }
+  section:nth-child(even) {
+    background-color: #FFF; }
+
+/** GENERIC **/
+/** BASE **/
+h1 {
+  font-size: 2.5em !important; }
+
+h2 {
+  font-size: 1.875em !important; }
+
+h3 {
+  font-size: 1.5em !important; }
+
+h4 {
+  font-size: 1.125em !important; }
+
+h5 {
+  font-size: 0.75em !important; }
+
+h1, h2, h3, h4 {
+  margin-bottom: 1.5em !important; }
+
+.editais{
+  background: rgba(49,46,89,0.95);
+}
+
+.style-title {
+  position: relative;
+  font-size: 1.3em !important;
+  color:  #FFF;
+}
+  .style-title::after {
+    content: '';
+    position: absolute;
+    height: 9.6pt;
+    width: 80%;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(161,153,242,0.9); }
+
+  .titulo-edital{
+    margin-bottom: 10px !important;
+  }
+
+  .subtitulo-edital{
+    margin-bottom: 40px;
+    color:  #777;
+  }
+
+  .mensagem-article{
+     color: #ffff00;
+     margin-bottom: 15px !important;
+  }
+
+  .titulo-principal{
+    color: #fff;
+     margin-bottom: 15px !important;
+  }
+
+  .texto-principal{
+    color: #777;
+    font-size: 0.80em;
+    line-height:1.2em;
+  }
+  .numero{
+    font-size: 1.5em !important;
+  }
+
+  .list-etapas{
+    list-style-type: none;
+    padding: 0 !important;
+  }
+
+  .list-etapas li a{
+    text-decoration: none;
+     color: #777;
+    font-size: 0.70em;
+  }
+  .titulo-etapas{
+    margin-bottom: 0px !important;
+
+  }
+  .Finalizados-titulo{
+    color: #fff;
+    margin-bottom: 15px !important;
+  }
+  .link-editais{
+    color: #fff;
+  }
+
+   .link-editais:hover{
+    color: #fff;
+  }
